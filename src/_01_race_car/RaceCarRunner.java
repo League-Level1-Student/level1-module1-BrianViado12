@@ -15,10 +15,12 @@ public class RaceCarRunner {
 		// 2. Print the RaceCar's position in the race
 			System.out.println(5);
 		// 3. Crash the RaceCar
-			
+			crash();
+			System.out.println();
 		// 4. If the car is damaged. Bring it in for a pit stop.
-
+			isDamaged(damaged = false);
 		// 5. Help the car move into first place.
-
+			overtake();
+			System.out.println(positionInRace--);
 	}
 }
