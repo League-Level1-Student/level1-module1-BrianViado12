@@ -7,7 +7,10 @@ public class PopcornMaker {
 		Popcorn popcorn = new Popcorn("salted");
 		Microwave microwave = new Microwave();
 		microwave.putInMicrowave(popcorn);
-		String answer = JOptionPane.showInputDialog("What flavor would you like?");
+		microwave.setTime(4);
+		microwave.startMicrowave();
+		popcorn.applyHeat();
+		popcorn.eat();
 	}
 	
 	
